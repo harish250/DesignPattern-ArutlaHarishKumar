@@ -10,7 +10,7 @@ public class Main {
       
       System.out.println("Executing Creational Problems");
       System.out.println("Singleton Class");
-	  SingletonClass singleton = new SingletonClass();
+	  SingletonClass singleton = SingletonClass.getInstance();
 	  singleton.getInstance();
 	  System.out.println("Builder Class");
 	  House house = new House.HouseBuilder(3,4,5,true,true).build();

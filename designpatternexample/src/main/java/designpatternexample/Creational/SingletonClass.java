@@ -4,7 +4,7 @@ public class SingletonClass {
     
 	private static SingletonClass instance;
 	 
-	public SingletonClass()
+	private SingletonClass()
 	{
 		System.out.println("Singleton object created only once\n");
 	}
